@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+.Avatar {
+  border: 2px solid #000;
+  text-align: center;
+  padding: 20px;
+  width: 150px;
+}
+
+.Avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
